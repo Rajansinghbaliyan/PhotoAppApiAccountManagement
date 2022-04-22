@@ -24,6 +24,12 @@ spring:
     username: ${POSTGRES_USER}
     password: ${POSTGRES_PASSWORD}
 #    driver-class-name: org.postgresql.Driver
+#  devtools:
+#    livereload:
+#      enabled: true
+#    restart:
+#      enabled: true
+
 eureka:
   client:
     serviceUrl:
