@@ -13,7 +13,7 @@ spring:
         ddl-auto: update
         hbm2ddl.auto: create-drop
         naming-strategy: org.hibernate.cfg.EJB3NamingStrategy
-        show-sql: true
+      show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   #  jackson:
   #    property-naming-strategy: CAMEL_CASE_TO_LOWER_CASE_WITH_UNDERSCORES

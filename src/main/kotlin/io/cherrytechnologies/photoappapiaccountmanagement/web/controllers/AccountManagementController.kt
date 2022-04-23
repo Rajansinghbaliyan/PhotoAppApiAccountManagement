@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController
 import java.util.logging.Logger
 
 @RestController
-@RequestMapping("/v1/api/account-management")
+@RequestMapping("/account")
 class AccountManagementController {
 
     val log: Logger = Logger.getLogger(AccountManagementController::class.toString())
